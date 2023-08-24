@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CustomdDirective } from './customd.directive';
+import { RngifDirective } from './rngif.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CustomdDirective,
+    RngifDirective
   ],
   imports: [
     BrowserModule,
